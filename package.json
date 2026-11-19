@@ -1,0 +1,15 @@
+{
+  "name": "storyforge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A bedtime story workshop that runs on-device in Chrome, with a cloud engine for side-by-side comparison.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.10.0"
+  }
+}
